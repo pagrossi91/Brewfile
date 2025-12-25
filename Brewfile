@@ -3,6 +3,7 @@
 # Utilities
 cask "iterm2" # Better terminal
 brew "neovim" # Terminal-based text editor
+cask "docker-desktop" # Docker Desktop
 
 # Python projects
 brew "python@3.14"
