@@ -1,15 +1,17 @@
 # Brewfile for homebrew
 
-# A terminal-based text editor
-brew "neovim"
-
-# Converts filetypes. Used for Obsidian
-brew "pandoc"
+# Utilities
+cask "iterm2" # Better terminal
+brew "neovim" # Terminal-based text editor
 
 # Python projects
 brew "python@3.14"
-
-# A package manager for Python. Modern version of pip3
-brew "uv"
+brew "uv" # Python package manager. Modern version of pip/pip3
 
 brew "wget"
+brew "ollama" # Local LLM app
+
+# Obsidian tools
+brew "pandoc" # Converts files
+cask "zotero" # Bibliography tool
+brew "tesseract" # OCR for graphic imports
