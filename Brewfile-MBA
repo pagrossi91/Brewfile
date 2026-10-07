@@ -37,6 +37,7 @@ cask "bettertouchtool"
 cask "bitwarden"
 
 # Mac App Store
+mas "Pages", id: 361309726
 mas "Tailscale", id: 1475387142
 mas "Paprika Recipe Manager 3", id: 1303222628
 mas "Wireguard", id: 1451685025
