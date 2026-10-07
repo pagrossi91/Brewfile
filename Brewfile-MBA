@@ -15,6 +15,7 @@ brew "python@3.14"
 brew "uv" # Python package manager. Modern version of pip/pip3
 brew "wget"
 brew "ollama" # Local LLM app
+brew "screen"
 
 # Obsidian tools
 cask "obsidian"
