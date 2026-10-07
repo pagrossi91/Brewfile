@@ -1,0 +1,43 @@
+# Brewfile for homebrew
+
+# Utilities
+cask "iterm2" # Better terminal
+brew "neovim" # Terminal-based text editor
+cask "docker-desktop" # Docker Desktop
+brew "podman"
+brew "nmap"
+brew "telnet"
+
+# Python projects
+brew "poppler" # Convert PDF to plain text, preserving table and image data
+brew "python@3.13" # Compatible with pyarrow/numpy C extensions
+brew "python@3.14"
+brew "uv" # Python package manager. Modern version of pip/pip3
+brew "wget"
+brew "ollama" # Local LLM app
+
+# Obsidian tools
+cask "obsidian"
+brew "pandoc" # Converts files
+cask "zotero" # Bibliography tool
+brew "tesseract" # OCR for graphic imports
+
+# Apps
+cask "visual-studio-code"
+cask "nextcloud"
+# cask "freecad"
+cask "gimp"
+cask "protonvpn"
+cask "proton-drive"
+cask "firefox"
+cask "signal"
+cask "vlc"
+cask "bettertouchtool" 
+cask "bitwarden"
+
+# Mac App Store
+mas "Tailscale", id: 1475387142
+mas "Paprika Recipe Manager 3", id: 1303222628
+mas "Wireguard", id: 1451685025
+mas "uBlock Origin Lite", id: 6745342698
+mas "Amphetamine", id: 937984704

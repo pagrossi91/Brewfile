@@ -1,0 +1,27 @@
+# run on Bazzite with
+# brew bundle upgrade --file="/home/pgrossi/Nextcloud/Documents/Paul's Documents/Brewfile-bazzite"
+
+
+# Utilities
+brew "screen"
+
+# Python
+brew "python@3.13"
+brew "uv"
+
+# Elite Dangerous
+flatpak "io.edcd.EDMarketConnector"
+
+# Installed
+flatpak "com.nextcloud.desktopclient.nextcloud"
+flatpak "md.obsidian.Obsidian"
+flatpak "org.zotero.Zotero"
+flatpak "org.signal.Signal"
+flatpak "com.discordapp.Discord"
+flatpak "io.github.berarma.Oversteer"
+
+# Default apps
+flatpak "org.mozilla.firefox"
+flatpak "org.kde.kcalc"
+flatpak "org.kde.okular"
+
