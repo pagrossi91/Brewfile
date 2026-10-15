@@ -19,9 +19,13 @@ flatpak "org.zotero.Zotero"
 flatpak "org.signal.Signal"
 flatpak "com.discordapp.Discord"
 flatpak "io.github.berarma.Oversteer"
+flatpak "io.github.pwr_solaar.solaar"
 
 # Default apps
 flatpak "org.mozilla.firefox"
 flatpak "org.kde.kcalc"
 flatpak "org.kde.okular"
 
+# Obsidian tools
+brew "pandoc" # Converts files
+brew "tesseract" # OCR for graphic imports
