@@ -19,7 +19,6 @@ flatpak "org.zotero.Zotero"
 flatpak "org.signal.Signal"
 flatpak "com.discordapp.Discord"
 flatpak "io.github.berarma.Oversteer"
-flatpak "io.github.pwr_solaar.solaar"
 
 # Default apps
 flatpak "org.mozilla.firefox"
